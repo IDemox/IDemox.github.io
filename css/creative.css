@@ -165,6 +165,14 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
+
+header .container {
+    width: 100%;
+  min-height: auto;
+  text-align: center;
+      z-index: 2;
+      position: relative; }
+
 header .overlay {
   position: absolute;
   top: 0;
@@ -184,13 +192,6 @@ header .overlay {
     display: none;
   }
 }
-
-header .container {
-    width: 100%;
-  min-height: auto;
-  text-align: center;
-      z-index: 2;
-      position: relative; }
 
 
 
