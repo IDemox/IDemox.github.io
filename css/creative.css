@@ -187,6 +187,7 @@ header .overlay {
 
 header .header-content-inner h1 {
       font-size: 30px;
+      position: relative;
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0;
@@ -202,7 +203,8 @@ header .header-content-inner p {
 header .header-content-inner {
           max-width: 1000px;
           margin-right: auto;
-          margin-left: auto; }
+          margin-left: auto;
+          position: relative;}
           header .header-content-inner h1 {
             font-size: 50px; }
           header .header-content-inner p {
