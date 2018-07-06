@@ -186,8 +186,9 @@ header .overlay {
 }
 
 header .container {
-      font-size: 20px;
-      text-transform: uppercase;
+    width: 100%;
+  min-height: auto;
+  text-align: center;
       z-index: 2;
       position: relative; }
 
